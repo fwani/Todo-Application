@@ -1,15 +1,14 @@
+.TodoListItemVirtualized + .TodoListItemVirtualized {
+    border-top: 1px solid #dee2e6;
+}
+.TodoListItemVirtualized:nth-child(even) {
+    background: #f8f9fa;
+}
+
 .TodoListItem {
     padding: 1rem;
     display: flex;
     align-items: center;
-}
-
-.TodoListItem + .TodoListItem {
-    border-top: 1px solid #dee2e6;
-}
-
-.TodoListItem:nth-child(even) {
-    background: #f8f9fa;
 }
 
 .TodoListItem .checkbox {
